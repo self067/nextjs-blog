@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+
+  "extends": [
+    "xo"
+
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+},
+
+  "parser": "babel-eslint",
+  "rules": {
+ "indent": ["error", 2],
+    "react/jsx-filename-extension": 0,
+	"react/jsx-props-no-spreading": [0, {
+	    "html": "ignore",
+	    "custom": "ignore",
+	    "explicitSpread": "ignore",
+		}],
+    "no-plusplus": 0,
+
+}
+}
+
+
